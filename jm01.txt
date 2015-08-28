@@ -1,0 +1,302 @@
+The Question of the Migratory Gelatinous Cube
+
+(Or, "Where's Milly?")
+
+
+[ About ]
+
+This is a light hearted, fairly linear, and low-level adventure, built for a party of level 1 adventurers.
+
+It takes place in the small farming hamlet of Noecks, which includes a small inn and a destroyed house, and at a small cave in the wilderness. The adventurers will encounter an Innkeep, a group of fire sprites, a goblin party of bandits/businessmen, a Golem of Straw and Dry Grass, and Milly.
+
+There are three or four combat encounters, split between a couple days. They can solved without combat, or at least witout the players putting themselves in too much danger.  But if the players run in head-first they could face some real danger, and odds are good that someone's gonna fall unconsious. But if the players are smart then there's no need for anyone to die. There is some flexibility built into the encounters, and the DM can make them easier or harder with some ease.
+
+
+[ Background ]
+
+The characters will arrive at the small farming town of Noecks, known for nothing more than being a waypoint between more exciting places. It's nighttime and there's only one inn in this one-horse town (not literally).
+
+The town of Noecks have been experiencing migratory gelatinous cubes wandering through town, seasonally, over the last few years. The paths the Cubes take clear of any hurdles, and it's become an expected but still exciting sight for the locals. Some townsfolk would like to use them to increase tourism. A local goblin tribe of bandits have been trying to get a bit of business going by selling jelly made from the trails of the gelatinous cubes, but have so far been unsuccessfull.
+
+Recently one of the cubes wandered off it's normal path and through the house of the town healer, Milly. The house was destroyed and Milly hasn't been seen since. That was last week.
+
+Timeline of event before the adventure, that the townsfolk are unaware of:
+
+ - Two weeks ago: Milly has been studying the Gelatinous Cubes, and had bought a few jars of Jelly from the goblins.
+ - One week ago: This attracted the not-quite-mindless Cubes, and one went slightly off course from it's usual migratory route and "rolled" through her house. She fell into the wake of the cube, and found herself very, very sick and very, very poisoned. She fled to her Cave of Investigations and Vacations to quarantine herself from the rest of town.
+ - Two days ago: Milly was visited by the local Golin bandits, who she has always been on good terms with, and she paid them each 5 silver pieces to go and burn down what remains of her old house, to eliminate any remaining slime.
+ - Yesterday: Milly, still in her cave, finally fell victem to Jelly-Madness, and constructed a Golem of Straw and Dry Grass to defend her against her imaginary foes.
+ - Earlier this evening: The goblins arrive at Milly's partially destroyed house. 
+
+
+If the players are normal enough, they'll go through the adventure in roughly this order:
+
+  1) Arrive at inn
+  2) Learn about town
+  3) Witness a migratory gelatinous cube
+  4) Inn set on fire
+  5) Fight fire and fire pixies, and save child
+  6) Investigate Milly's old home
+  7) Fight goblins
+  8) Learn more about Milly
+  9) Travel to Milly's cave
+  10) Fight Golem and Milly
+
+
+[ Preparing the adventure ]
+
+Nothing is required beyond reading this document back and forth, but if you want to be a completionist, here's what you need to do:
+
+Minis needed for combat/encounters:
+  4 regular goblins
+  1 special goblin (Could be a regular goblin mini with a rubber band around his waist. He's not smart, he may have actually done that.)
+  6 fire sprites (could just be six red d6s)
+  1 female human priest
+  1 greenish/yellowish golem (or any big guy with those colors, like a shambling mound or a swamp thing figurine.)
+  1 gelatinous cube. (If made of real jello, feed it to any player stupid enough to touch it. Or you can use the small plastic case that dice come in.)
+  optionally, for flavor, three villagers and a young girl.
+
+Handouts for players
+  Map of the land
+  Map of Noecks
+  Milly's note to the goblins
+
+Potential combat areas you can print out or draw on a dry-erase mat
+  Two Axes Inn
+  Milly's House of Healing
+  Milly's Cave of Investigations and Vacations
+
+Remember there are two important mechanics to remember:
+  Knock unconcious: When a character deals a mortal blow in melee combat, they can decide to instead knock the target unconsious.
+  Being on fire: Fire is 1d4 damage per turn, unless the player takes an action to make a Dex save at DC10 to stop, drop, and roll.
+  Falling down: 1d8 damage per ten feet. Dex save DC 15 to take half. If you take any damage, you land prone.
+
+
+[ Hook ]
+
+Tell your players that they arrive at a small town. It's nighttime, it's cold, and oh look it's an inn.
+
+
+[ Scene 1: Arriving at the local inn ]
+
+Description: 
+Read-aloud: 
+Features: 
+Developments: 
+Treasure: 
+
+
+[ Scene 2: Witnessing a migratory Gelatinous Cube ]
+
+Description: 
+Read-aloud: 
+Features: 
+Developments: 
+Treasure: 
+
+
+[ Scene 3: The inn is set on fire ]
+
+Description: 
+Read-aloud: 
+Features: 
+Developments: 
+Treasure: 
+
+Fire sprites can be fought, illusioned into thinking it's cold, or be put out with beer or snowballs.
+If a fire sprite is de-fired, it becomes sad and sits down for a round, and then disappears in a sad little poof of smoke, leaving behind only an ember.
+
+
+[ Scene 4: Visiting the scene of the crime, Milly's House of Healing ]
+
+Description: 
+Read-aloud: 
+Features: 
+Developments: 
+Treasure: 
+
+Goblins will throw stuff down at anyone who enteres the house through the small hole.
+Goblins will fight until two of them dies, then they will flee.
+Captain will hide in a bureau as soon as fighting starts.
+The goblins will try to attack the weakest-looking people first. They will also try to push people down the hole or off the edge.
+
+
+[ Scene 5: Learn more about Milly ]
+
+Description: 
+Read-aloud: 
+Features: 
+Developments: 
+Treasure: 
+
+What the townsfolk know:
+
+  - Milly's has a Cave of Investigations and Vacations.
+  - They even know around which direction to go to find it.
+  - They all worship the same god as Milly. But Milly praised her god especially, and tended her god-garden well.
+  - Many people have a small god garden, which is a small area where they let wildflowers grow, with a small picture or symbol of GODNAME nearby.
+  - Everyone is fond of Milly. They call her a healer, and take offence to anyone who calls her a witch.
+  - Some people think the goblins are harmless. Dumb, but harmless. Some people think they're an nusiance. Some people think they're a menace to proper, civilized society.
+  - The goblins were fond of Milly, she always treated them well.  
+
+What Milly's house will show:
+
+  - jars of jelly
+  - a map to her Cave of Investigations and Vacations
+  - symbols of her god, including a small medallion, a book, and a small charcoal sketch.
+
+
+[ Scene 6: Finding Milly at Milly's Cave of Vacations and Investigations ]
+
+Description: 
+Read-aloud: 
+Features: 
+Developments: 
+Treasure: 
+
+
+[ NPCs ]
+
+Milly:
+
+A local healer and helper. Decribed as a town witch, really just a 3rd level cleric.
+Her gods wants to help her, sent an auroa borealis over the town to attract the adventurers.
+When found will already have her golem summoned.
+
+Local God:
+
+God of natural beauty, fire, and not wearing makeup. Pictures of her are a bit homely.
+Her picture hangs on walls around town, and her symbols are seen near gardens.
+
+Goblins:
+
+Immune the gelatinus cube's insanity.
+Eats the slime left behind. Trying to sell it as jelly. ("Cures warts, sobriety!")
+A known presense in the area, range from low-level banditry to low-end tradiing partners.
+Small yellow eyes, but smart and always taking in everything in their environment.
+
+Gelatinous cubes:
+
+Been migrating for a few years now.
+They are large and largely harmless if left alone, they always follow the same path.
+They will not attack humanoids unless hungry (which they are not while migrating) or threatened.
+They have a low-level intelligence.
+Contact with them causes hallucinations and, in large quantities, insanity.
+Play them like giant sleepy bears.
+Smell bitter, like an acidic march, with hints rotten fruit, and an aftertaste of peaches
+Birds and small animals will flee from the gelatious cubes, though they always stay off the clear paths.
+
+Golem of Dry Grass and Hay:
+
+Exists to defend Milly. Has no self-preservation instinct.
+Doesn't negotiate.
+Strong against piercing attacks. Weak against blunt attacks. Weak against fire. Weak against farming tools.
+
+[ Locations ]
+
+Town of Noecks
+Inn of The Two Axes
+Milly's House
+Milly's Cave of Investigations and Vacations
+The Jelly Swamps
+The Light Forest
+
+Town of Noeacks:
+
+Small hamlet, the northernmost gasp of civilization.
+A one-inn town.
+Mostly populated by farmers.
+Has an inn, formerly a medicine woman, and a not-very-skilled blacksmith who can fix easy things.
+Sees wanderers, occasional deep monk acolytes traveling to the northern temple, regular traders
+Trying to turn the migratory gelatinous cubes into tourism
+
+The Jelly Swamp:
+
+Contains a small civilization of mildly-intelligent toads.
+
+Inn of Two Axes:
+
+Innkeep: Degran, and his daughter, Degranna.
+Degran: A former fighter and guard from the big city. Used to have a bit of muscle, now has a bit of a belly. Califlower ear and broken capillaries on the nose, a wide smile but a small, intelligent laugh. Cares for his daughter, who he gave up the life of excitement for.
+Degranna: not much to her, whiney, redhead.
+Two axes hang above the fireplace. They are not magical, but Degran calls them his lucky axes. Not for anyone who holds them though, stealing the axes is a capital offence in this town.
+
+
+[ After the adventure ends ]
+
+Milly needs to be healed, and she needs to get to a city to do it. She has been corresponding with a healers guild in a city a few days down the road.
+Gelatinous Cubes are typically found in the underdark. Where are they migrating to? Where are they migrating from?
+
+
+[ NOTES TO SELF ]
+
+for each area, describe terrain, illumination, warmth, animal sounds
+bold skill checks, or put them in their own section
+for each NPC, include quotes, what they like to talk about, what they don't like to talk about
+
+
+[ SECTIONS ]
+
+about - metainformation about this adventure, who it's form, what it's like to play, levels
+synopsis - rough timeline, in story form, 
+preparation
+background
+hook
+chapters
+npc list
+location list
+maps
+handouts
+licensing info, credits
+
+(someone elses list of stuff to include)
+title/author/target levels
+background
+overview
+hook
+scenes (title, description, read-aloud, features, developments, treasure)
+what's next
+maps
+monsters/npcs
+
+[ HTML ]
+
+<header>
+
+  <h1> - title
+    <span> - subtitle
+  <h2> - author
+
+  <menu> - to each section
+    <li>
+
+<section>
+
+  <h3> - section
+    <span> - subtitle
+
+  <p>
+    <a>
+    <span.book_reference> - reference to the PBH, MM, or DMG
+
+<h4> - subsection
+
+<aside.dialog> - NPC  dialog options
+  <ul>
+    <quote>
+
+<img> - image
+  .pull - inline, small
+  .full - full page
+
+<ol> - random choice
+
+<aside.npc> - npc description
+  <img>
+
+<footer>
+  <p>
+  <ul.contact_info> - how to contact the author
+    <li>
+
+take p from vox articles

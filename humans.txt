@@ -1,0 +1,14 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+  Justin McGuire
+  @lifefeed for yelling at people, @landedstar for faux-professionalism
+
+# TECHNOLOGY COLOPHON
+
+  This site was built using the command line and Vim.
+  I'd also like to thank HTML5, CSS3, Git, GitHub, HTML5 Boilerplate, jQuery, Modernizr, Normalize.css, SASS
+  Parallax scrolling courtesy of: https://www.script-tutorials.com/bootstrap-one-page-template-with-parallax-effect/
+

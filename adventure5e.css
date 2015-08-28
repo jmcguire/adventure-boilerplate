@@ -1,0 +1,88 @@
+@import url(http://fonts.googleapis.com/css?family=Lora:700);
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic);
+
+.statblock {
+  width: 424px;
+  font-family: 'Noto Sans', 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+  background: #FDF1DC;
+  padding: 0.6em;
+  border: 1px #DDD solid;
+  box-shadow: 0 0 1.5em #867453;
+  margin: 1em;
+  page-break-inside: avoid;
+  float: left;
+}
+
+.statblock:nth-child(odd) {
+  clear: left;
+}
+
+.statblock-gradient {
+  background: linear-gradient(10deg, #A73335, white);
+  height:5px;
+  margin:7px 0px;
+}
+
+.statblock-name {
+  font-size: 225%;
+  font-family: 'Lora', 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;;
+  font-variant: small-caps;
+  font-weight: bold;
+  color: #7A200D;
+}
+.statblock-description {
+  font-style:italic;
+}
+
+dl.statblock-basic {
+  color: #7A200D;
+}
+dl.statblock-basic dt {
+  font-weight: bold;
+  float: left;
+  margin-right: 0.4em;
+}
+dl.statblock-detailed {
+  color: black;
+}
+dl.statblock-detailed dd {
+  margin-bottom: 0.5em;
+}
+dl.statblock-detailed dd:last {
+  margin-bottom: 0;
+}
+
+.statblock-detailed dt {
+  font-weight:bold;
+  font-style:italic;
+}
+
+.statblock-attr {
+  table-layout: fixed;
+  width: 100%;
+  border: 0 collapse;
+  color: #7A200D;
+}
+.statblock-attr th {
+  font-weight: bold;
+}
+.statblock-attr th, .statblock-attr td {
+  text-align: center;
+}
+
+.statblock-action-title {
+  font-size: 175%;
+  font-variant: small-caps;
+  color: #7A200D;
+  margin: 0.5em 0px 0.5em 0px;
+  border-bottom: 2px solid #7A200D;
+}
+
+svg.statblock-hr {
+  fill: #922610;
+  stroke: #922610;
+  margin-top: 0.7em;
+  margin-bottom: 0.35em;
+}
+
+
