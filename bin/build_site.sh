@@ -1,21 +1,62 @@
 #!/bin/sh
+#
+# Build the entire adventure website from a single markdown file
 
-file=$1
-project=`basename $file | sed 's/\.md//'`
-
-echo "Creating adventure webpage: $project"
-
-if [ ! -w . ]
-then
-  echo "you do not have write permissions to this directory. quitting."
+function usage {
+  echo "usage: $0 [-f folder] [-i image] [-h] [-?] file.md"
+  echo "  file.md     the adventure text file, in markdown format"
+  echo "  -f folder   specify the output folder"
+  echo "  -i image    the header image, used for parallax scrolling"
+  echo "  -h | -?     display this usage message"
   exit 1
+}
+
+function err {
+  echo "$1"
+  echo "usage: $0 [-f folder] [-i image] [-h] [-?] file.md"
+  exit 1;
+}
+
+
+## load project parameters
+
+file=
+project=
+project_parent_dir=
+
+while getopts ":f:i:" opt; do
+  case $opt in
+    f)    project=$OPTARG ;;
+    i)    image=$OPTARG ;;
+    [?h]) usage ;;
+    \?)   echo "unknown option -$OPTARG"; exit 1 ;;
+    :)    echo "option -$OPTARG requires an argument"; exit 1 ;;
+  esac
+done
+shift $(($OPTIND - 1))
+
+if [ $1 ]
+then
+  file=$1
+else
+  err "missing adventure file."
 fi
 
-if [ -d $project/ ]
-then
-  echo "the $project directory already exists. quitting."
-  exit 1
-fi
+[ ! $project ] && project=`basename $file | sed 's/\.md//'`
+
+project_parent_folder=`dirname $project`
+
+
+## begin our adventure
+
+echo "Begin building our adventure: $project"
+
+
+## setup our directory structure
+
+[ ! -w $project_parent_dir ] && err "you do not have write permissions to this directory."
+
+[ -d $project/ ] && err "the $project directory already exists."
 
 mkdir $project
 mkdir $project/css
@@ -24,8 +65,11 @@ mkdir $project/fonts
 mkdir $project/licenses
 mkdir $project/js
 
+
+## create, copy, and mangle necessary files
+
 sass scss/styles.scss >$project/css/styles.css \
-  || eval 'echo "SASS conversion failed. quitting." 1>&2; exit 1'
+  || err "SASS conversion failed."
 
 ## possible error: these copies assuming that we're being executed from the
 ## adventure-boilerplate directory, which may not be true? it's not an important
@@ -40,9 +84,12 @@ cp -r js/* $project/js
 cp $file $project
 #copy appropriate image and image license
 
+
 ## top part of the HTML document
 ## (the title should come from the h1 and author tags. will probably need to
 ## convert this to markdown extension to get easy access to those.)
+## (while i'm talking about good ideas, lets not accidentally create a new
+## templating language.)
 cat << TOPPART >$project/index.html
 <!doctype html>
 <html class="no-js" lang="">
@@ -69,7 +116,7 @@ python -m markdown \
        -x markdown.extensions.def_list \
        -x markdown.extensions.attr_list \
        $file >> $project/index.html \
-       || eval 'echo "python markdown conversion failed." 1>&2; exit 1'
+       || err "python markdown conversion failed."
 
 ## bottom part of the HTML document
 cat << BOTTOMPART >>$project/index.html
@@ -84,4 +131,6 @@ ADVENTURE BOILERPLATE LICENSE
 BOTTOMPART
 
 echo "...finished building $project webpage"
+
+exit 0
 
