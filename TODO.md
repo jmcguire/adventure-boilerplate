@@ -1,22 +1,20 @@
 Markdown converter:
 
  - altered to produce adventure-flavored HTML
- - with definition lists extension
  - need a way to include that statblocks weird SVG-style line
- - need a way to create the two statblock types of dl's
- - classes?
+ - need a way to create the two statblock types of dls
  - produce header and footer from metadata? from certain HTML lines?
  - [TOC] ? (convert it from div to nav)
+ - build an adventure-boilerplate extension for python markdown 
 
 Finish typing up jm01 adventure
 
 Build script:
 
- - converts all sass and markdown
- - takes in a variable to decide which picture should be parallaxed
- - something like `build.sh --adventure=samples/jm01.md --top-image=img/top.jpg --out=jm01`
- - produces a folder with all files needed
  - should include necessary licences
+ - create parallax from supplied image
+ - get title from interior tags
+ - create footer
 
 Styles:
 
