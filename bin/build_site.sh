@@ -69,7 +69,10 @@ mkdir $project/js
 ## create, copy, and mangle necessary files
 
 sass scss/styles.scss >$project/css/styles.css \
-  || err "SASS conversion failed."
+  || err "SASS styles conversion failed."
+
+sass scss/statblock.scss >$project/css/statblock.css \
+  || err "SASS statblock conversion failed."
 
 ## possible error: these copies assuming that we're being executed from the
 ## adventure-boilerplate directory, which may not be true? it's not an important
