@@ -1,0 +1,34 @@
+This directory holds all the python libraries for our custom markdown extensions.
+
+Eventually it'll have to be put in a proper directory format, which will probably be something wordy like lib/python/2.7/adventure-boilerplate/
+
+Extensions I need to write for version 1:
+
+ - emphasize dice strings like 3d6 (not required, but for simple practice)
+ - add the boilerplate head tag
+ - create the title from the h1 and author h2
+ - create a footer that includes author, licenses, project info
+ - statblock
+ - wrap content in main tag
+ - add bottom part of HTML boilplate
+
+Extensions for future versions:
+
+ - special formatting for the author h2
+ - recognize a dice options ol, and give it a class
+ - append a custom css
+ - add contact info to author h2, like social media icons
+ - npc formatting, with dialog stuff
+ - wrap each h2 section in section tag
+ - create general menu from h2 tags
+ - create scene menu from the h3 tags in the scene section
+ - do something for the paper book references, like DMG 100
+ - do something for the open document references
+ - add google tracking code
+ - use meta data in the md file, in place of the command line, for:
+    - title
+    - license
+    - location of custom css file
+    - google tracking code
+    - parallax image
+
