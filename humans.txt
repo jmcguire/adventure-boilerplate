@@ -9,7 +9,7 @@
 # TECHNOLOGY COLOPHON
 
   This site was built using the command line and Vim.
-  I'd also like to thank HTML5, CSS3, Git, GitHub, HTML5 Boilerplate, jQuery, Modernizr, Normalize.css, SASS
+  I'd also like to thank HTML5, CSS3, Git, GitHub, HTML5 Boilerplate, jQuery, Modernizr, Normalize.css, SASS, Vim Markdown
   Parallax scrolling courtesy of: script-tutorials.com/bootstrap-one-page-template-with-parallax-effect/
   favicons courtesy of: realfavicongenerator.net
 
