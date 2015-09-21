@@ -1,4 +1,3 @@
-
 from markdown.extensions import Extensions
 from markdown.postprocessors import Postprocessor
 from markdown.inlinepatterns import Pattern

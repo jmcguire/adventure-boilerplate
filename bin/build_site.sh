@@ -80,6 +80,8 @@ sass scss/statblock.scss >$project/css/statblock.css \
 
 cp licenses/HTML5_Boilerplate.txt $project/licenses/
 cp LICENSE.md $project/licenses/Adventure_Boilerplate.md
+cp 404.html $project/404.html
+cp crossdomain.xml $project/crossdomain.xml
 cp fonts/* $project/fonts
 cp css/main.css $project/css
 cp css/normalize.css $project/css
@@ -147,10 +149,9 @@ python -m markdown \
 ## bottom part of the HTML document
 cat << BOTTOMPART >>$project/index.html
 <footer>
-AUTHOR INFO
-AUTHOR CHOOSEN LICENSE
-ADVENTURE BOILERPLATE INFO
-ADVENTURE BOILERPLATE LICENSE
+  AUTHOR INFO
+  AUTHOR CHOOSEN LICENSE
+  <p>Formatting courtesy of <a href="http://github.com/jmcguire/adventure-boilerplate">Adventure Boilerplate</a> &copy; 2015 Justin McGuire with the <a href="https://opensource.org/licenses/MIT">MIT license</a>.</p>
 </footer>
 </body>
 </html>

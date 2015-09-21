@@ -5,6 +5,7 @@ Eventually it'll have to be put in a proper directory format, which will probabl
 Extensions I need to write for version 1:
 
  - emphasize dice strings like 3d6 (not required, but for simple practice)
+ - turn a dnd attribute list into a nice table
  - add the boilerplate head tag
  - create the title from the h1 and author h2
  - create a footer that includes author, licenses, project info

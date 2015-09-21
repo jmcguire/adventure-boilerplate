@@ -19,13 +19,15 @@ Speed
 | --- | --- | --- | --- | --- | --- |
 | 16 (+3) | 9 (-1) | 17 (+3) | 3 (-4) | 8 (-1) | 1 (-4) |
 
+<!-- * dnd-attributes: 16 9 17 3 8 1 -->
+
 ---
 
 Senses
 : passive Perception 7
 
 Languages
-: ---
+: —
 
 Challenge
 : 2 (xx XP)

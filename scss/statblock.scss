@@ -23,15 +23,13 @@
   margin:7px 0px;
 }
 
-.statblock-name {
+h4 {
   font-size: 225%;
   font-family: 'Lora', 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;;
   font-variant: small-caps;
   font-weight: bold;
   color: #7A200D;
-}
-.statblock-description {
-  font-style:italic;
+  margin: 0px;
 }
 
 dl.statblock-basic {
@@ -73,12 +71,14 @@ dl.statblock-detailed {
   }
 }
 
-.statblock-action-title {
+.statblock-action-title,
+h5 {
   font-size: 175%;
   font-variant: small-caps;
   color: #7A200D;
   margin: 0.5em 0px 0.5em 0px;
   border-bottom: 2px solid #7A200D;
+  font-weight: normal;
 }
 
 svg.statblock-hr {
