@@ -1,6 +1,6 @@
-.sass-cache
-.swp
-.pyc
+*.sass-cache
+*.swp
+*.pyc
 
 css/styles.css
 css/statblock.css
