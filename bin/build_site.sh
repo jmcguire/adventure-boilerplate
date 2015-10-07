@@ -8,6 +8,8 @@ function usage {
   echo "  -f folder   specify the output folder"
   echo "  -i image    the header image, used for parallax scrolling"
   echo "  -h | -?     display this usage message"
+  echo ""
+  echo "Note that this command must be run from the home directory of adventure-boilerplate."
   exit 1
 }
 
@@ -138,11 +140,13 @@ cat << TOPPART >$project/index.html
     <![endif]-->
 TOPPART
 
+PYTHONPATH=`pwd`/lib:$PYTHONPATH
 python -m markdown \
        -x markdown.extensions.toc \
        -x markdown.extensions.tables \
        -x markdown.extensions.def_list \
        -x markdown.extensions.attr_list \
+       -x dice \
        $file >> $project/index.html \
        || err "python markdown conversion failed."
 
