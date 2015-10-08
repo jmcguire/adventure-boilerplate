@@ -5,12 +5,10 @@ Eventually it'll have to be put in a proper directory format, which will probabl
 Extensions I need to write for version 1:
 
  - turn a dnd attribute list into a nice table
- - add the boilerplate head tag
  - create the title from the h1 and author h2
  - create a footer that includes author, licenses, project info
  - statblock
  - wrap content in main tag
- - add bottom part of HTML boilplate
 
 Extensions for future versions:
 
