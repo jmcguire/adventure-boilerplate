@@ -80,15 +80,15 @@ sass scss/statblock.scss >$project/css/statblock.css \
 ## adventure-boilerplate directory, which may not be true? it's not an important
 ## bug, but something to fix in the future.
 
-cp licenses/HTML5_Boilerplate.txt $project/licenses/
+cp LICENSES/HTML5_Boilerplate.txt $project/licenses/
 cp LICENSE.md $project/licenses/Adventure_Boilerplate.md
-cp 404.html $project/404.html
-cp crossdomain.xml $project/crossdomain.xml
-cp fonts/* $project/fonts
+cp basic_files/404.html $project/404.html
+cp basic_files/crossdomain.xml $project/crossdomain.xml
+cp basic_files/fonts/* $project/fonts
 cp css/main.css $project/css
 cp css/normalize.css $project/css
-cp favicons/* $project/
-cp -r js/* $project/js
+cp basic_files/favicons/* $project/
+cp -r basic_files/js/* $project/js
 cp $file $project
 #copy appropriate image and image license
 
