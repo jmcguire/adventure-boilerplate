@@ -100,6 +100,7 @@ python -m markdown \
        -x markdown.extensions.attr_list \
        -x dice \
        -x wrap \
+       -x attribute_list \
        $file >> $project/index.html \
        || err "python markdown conversion failed."
 

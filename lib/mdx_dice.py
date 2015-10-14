@@ -13,8 +13,7 @@ class DiceExtension(Extension):
 class DicePattern(Pattern):
   """Returns a strong element, given a dice string (`1d10 + 4`)."""
   def handleMatch(self, m):
-    el = util.etree.Element("strong")
-    el.set('class', 'dice')
+    el = util.etree.Element('strong', {'class':'dice'})
     el.text = util.AtomicString(m.group(2))
     return el
 
