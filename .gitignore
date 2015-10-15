@@ -1,6 +1,7 @@
 *.sass-cache
 *.swp
 *.pyc
+.DS_STORE
 
 css/styles.css
 css/statblock.css
