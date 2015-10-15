@@ -53,6 +53,9 @@ class WrapProcessor(markdown.postprocessors.Postprocessor):
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+
+    <script src="https://use.typekit.net/kff4qkp.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
   </head>
   <body>
     <!--[if lt IE 8]>

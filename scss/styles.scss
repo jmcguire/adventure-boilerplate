@@ -1,30 +1,54 @@
+
 /* sass stuff */
 /* -------------------------------------------------------------------------- */
 
-$text-color: #4c4e4d;
+$text-color: #252525;
+$text-color-title: #eee;
+$text-color-subtitle: #eee;
+$text-color-dropcap: #151515;
+
 $background-color: #f1f3f2;
-$text-color-subtitle: #6b6d6c;
 
 .text-smoothing {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-$font-family-stack: "Balto", Helvetica, Arial, "Nimbus Sans L", sans-serif;
-$font-family-stack-subtitle: Harriet, "Georgia", serif;
+$font-stack: "Balto", Helvetica, Arial, "Nimbus Sans L", sans-serif;
+$font-stack-bigtitle: "modesto-condensed", sans-serif;
+$font-stack-subtitle: Harriet, "Georgia", serif;
+$font-stack-dropcap: "cabazon";
 
 /* general styles */
 /* -------------------------------------------------------------------------- */
 
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
 body {
   color: $text-color;
   background-color: $background-color;
+  background: url(img/dnd5_background.jpg);
   line-height: 1.65;
   font-size: 93.75%;
+  margin: 0;
 }
 
 p, q, li, blockquote {
   margin: 0 0 1.5em 0
+}
+
+h2 + p:first-letter {
+  font-family: $font-stack-dropcap;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+  float: left;
+  color: $text-color-dropcap;
 }
 
 a {
@@ -92,7 +116,7 @@ ol {
 }
 
 p, li {
-  font-family: $font-family-stack;
+  font-family: $font-stack;
   font-size: 1.3em;
   font-weight: 400;
   @extend .text-smoothing;
@@ -107,25 +131,26 @@ header { }
 
 /* adventure title */
 h1 {
-  font-family: $font-family-stack;
-  font-weight: 700;
-  font-size: 3em;
-  line-height: 1.1;
+  font-family: $font-stack-bigtitle;
+  font-weight: 300;
+  font-size: 3.5em;
   @extend .text-smoothing;
+  color: $text-color-title;
+  text-shadow: -2px 0 2px black, 0 2px 2px black, 2px 0 2px black, 0 -2px 2px black;
   text-rendering: optimizeLegibility;
   line-height: 1.2;
   margin: 0;
-  max-width: 90%;
   padding-bottom: 0;
   /* subtitle */
   span {
     display: block;
     color: $text-color-subtitle;
-    font-family: $font-family-stack-subtitle;
+    font-family: $font-stack-subtitle;
     font-style: italic;
     font-size: 30px;
     font-weight: 600;
     line-height: 1.2em;
+    text-shadow: none;
     margin: .1em 0 0;
   }
 }
@@ -138,6 +163,24 @@ menu  {
   li { }
 }
 
+#parallax {
+  background: url(../img/lightning-returns-ff13-concept-art.jpg) no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
 /* section styles */
 /* -------------------------------------------------------------------------- */
 
@@ -148,7 +191,7 @@ section {
 
 /* section title */
 h2 {
-  font-family: $font-family-stack;
+  font-family: $font-stack;
   font-size: 2em;
   font-weight: 500;
   line-height: 1.125em;
@@ -219,12 +262,35 @@ ul.contact_info {
 /* -------------------------------------------------------------------------- */
 
 blockquote {
-  font-weight: 400;
-  font-size: 1em;
-  text-rendering: optimizeLegibility;
-  background: transparent;
-  border-left: 3px solid #8b8e8d;
-  margin-left: 1em;
-  padding: 0 15px;
+  font-family: Georgia, serif;
+  font-size: 18px;
+  font-style: italic;
+  width: 500px;
+  margin: 0.25em 0;
+  padding: 0.25em 40px;
+  line-height: 1.45;
+  position: relative;
+  color: #383838;
+}
+
+blockquote:before {
+  display: block;
+  content: "\201C";
+  font-size: 80px;
+  position: absolute;
+  left: -20px;
+  top: -20px;
+  color: #7a7a7a;
+}
+
+blockquote cite {
+  color: #999999;
+  font-size: 14px;
+  display: block;
+  margin-top: 5px;
+}
+ 
+blockquote cite:before {
+  content: "\2014 \2009";
 }
 

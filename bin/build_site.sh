@@ -85,6 +85,7 @@ cp LICENSE.md $project/licenses/Adventure_Boilerplate.md
 cp basic_files/404.html $project/404.html
 cp basic_files/crossdomain.xml $project/crossdomain.xml
 cp basic_files/fonts/* $project/fonts
+cp basic_files/img/* $project/img
 cp css/main.css $project/css
 cp css/normalize.css $project/css
 cp basic_files/favicons/* $project/
