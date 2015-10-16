@@ -79,8 +79,20 @@ class WrapProcessor(markdown.postprocessors.Postprocessor):
       <p>{license_html}</p>
       <p>Formatting courtesy of <a href="http://github.com/jmcguire/adventure-boilerplate">Adventure Boilerplate</a> &copy; 2015 Justin McGuire with the <a href="https://opensource.org/licenses/MIT">MIT license</a>.</p>
     </footer>
+    {google_analytics_html}
   </body>
 </html>
+"""
+
+      google_analytics_part="""
+    <script>
+        (function(b,o,i,l,e,r){{b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){{(b[l].q=b[l].q||[]).push(arguments)}});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='https://www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}}(window,document,'script','ga'));
+        ga('create','{code}','auto');ga('send','pageview');
+    </script>
 """
 
       meta = self.markdown.Meta
@@ -90,7 +102,7 @@ class WrapProcessor(markdown.postprocessors.Postprocessor):
       meta.setdefault('subtitle', [''])
       meta.setdefault('license', ['None'])
 
-      ## create the license html snippet
+      # create the license html snippet
       licenses=yaml.load(file('licenses.yaml'))
       license_code = meta['license'][0].upper()
       if license_code == 'None':
@@ -100,8 +112,18 @@ class WrapProcessor(markdown.postprocessors.Postprocessor):
       else:
         license_html='License: %s' % meta['license'][0]
 
+      # create the google analytics code, which should look like UA-XXXXX-X
+      google_analytics_html = ""
+      if 'google-analytics-code' in meta:
+        google_analytics_html = google_analytics_part.format(code=meta['google-analytics-code'][0])
+
       html = top_part + text + bottom_part
-      return (html.format(title=meta['title'][0], author=meta['author'][0], subtitle=meta['subtitle'][0], license_html=license_html))
+      return (html.format(title=meta['title'][0],
+        author=meta['author'][0],
+        subtitle=meta['subtitle'][0],
+        license_html=license_html,
+        google_analytics_html=google_analytics_html
+        ))
 
 def makeExtension(configs=None):
     return WrapExtension(configs=configs)

@@ -99,6 +99,7 @@ python -m markdown \
        -x markdown.extensions.tables \
        -x markdown.extensions.def_list \
        -x markdown.extensions.attr_list \
+       -x markdown.extensions.meta \
        -x dice \
        -x wrap \
        -x attribute_list \
