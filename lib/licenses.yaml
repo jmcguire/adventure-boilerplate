@@ -1,0 +1,56 @@
+CC0:
+  title: Creative Commons Public Domain Dedication
+  url: https://creativecommons.org/publicdomain/zero/1.0/
+
+CC BY:
+  title: Creative Commons Attribution 
+  url: http://creativecommons.org/licenses/by/4.0/
+
+'CC BY-SA':
+  title: Creative Commons Attribution-ShareAlike 
+  url: http://creativecommons.org/licenses/by-sa/4.0/
+
+'CC BY-ND':
+  title: Creative Commons Attribution-NoDerivs 
+  url: http://creativecommons.org/licenses/by-nd/4.0/
+
+'CC BY-NC':
+  title: Creative Commons Attribution-NonCommercial 
+  url: http://creativecommons.org/licenses/by-nc/4.0/
+
+'CC BY-NC-SA':
+  title: Creative Commons Attribution-NonCommercial-ShareAlike 
+  url: http://creativecommons.org/licenses/by-nc-sa/4.0/
+
+'CC BY-NC-ND':
+  title: Creative Commons Attribution-NonCommercial-NoDerivs 
+  url: http://creativecommons.org/licenses/by-nc-nd/4.0/
+
+APACHE:
+  title: Apache License 2.0
+  url: http://www.apache.org/licenses/LICENSE-2.0.html
+
+GPL:
+  title: GPL 2.0
+  url: http://www.gnu.org/licenses/gpl-2.0.txt
+
+MIT:
+  title: The MIT License
+  url: http://opensource.org/licenses/MIT
+
+ART:
+  title: The Artistic License 2.0
+  url: http://www.perlfoundation.org/artistic_license_2_0
+
+UNLICENSE:
+  title: Unlicense
+  url: http://unlicense.org/
+
+BEERWARE:
+  title: Beerware
+  url: https://en.wikipedia.org/wiki/Beerware
+
+None:
+  title: All Rights Reserved
+  url: http://choosealicense.com/no-license/
+
