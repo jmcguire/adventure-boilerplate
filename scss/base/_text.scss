@@ -1,39 +1,20 @@
-
 body {
   color: $text-color;
-  background-color: $background-color;
-  background: url(../img/dnd5_background.jpg);
   line-height: 1.65;
   font-size: 93.75%;
-  margin: 0;
 }
 
 p, q, li, blockquote {
   margin: 0 0 1.5em 0
 }
 
-h2 + p:first-letter {
-  font-family: $font-stack-dropcap;
-  font-size: 75px;
-  line-height: 60px;
-  padding-top: 4px;
-  padding-right: 8px;
-  padding-left: 3px;
-  float: left;
-  color: $text-color-dropcap;
-}
-
-a {
-  color: #4f7177;
-}
-
-em {
-  background-color: #6f96a8;
-  color: #fff;
-}
-
-::selection {
-  background-color: #adff2f;
+p {
+  line-height: 1.65;
+  display: block;
+  margin-before: 1em;
+  margin-after: 1em;
+  margin-start: 0px;
+  margin-end: 0px;
 }
 
 p, li {
@@ -44,6 +25,16 @@ p, li {
   text-rendering: optimizeLegibility;
 }
 
+a {
+  color: #4f7177;
+}
+
+::selection {
+  background-color: #adff2f;
+}
+
+/* headings */
+/* -------------------------------------------------------------------------- */
 
 /* adventure title */
 h1 {
@@ -71,9 +62,6 @@ h1 {
   }
 }
 
-/* adventure author */
-h2 { }
-
 /* section title */
 h2 {
   font-family: $font-stack;
@@ -91,19 +79,30 @@ h2 {
   span { }
 }
 
-/* chapter title (or any subsection) */
-h3 { }
-
-p {
-  line-height: 1.65;
-  display: block;
-  margin-before: 1em;
-  margin-after: 1em;
-  margin-start: 0px;
-  margin-end: 0px;
+h2 + p:first-letter {
+  font-family: $font-stack-dropcap;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+  float: left;
+  color: $text-color-dropcap;
 }
 
-a { }
+/* chapter title (or any subsection) */
+h3 {
+  text-decoration: underline;
+}
+
+/* small sections within the chapter */
+h4 {
+
+}
+
+/* usefull classes */
+/* -------------------------------------------------------------------------- */
+
 /* reference to the PBH, MM, or DMG */
 span.book_reference { }
 

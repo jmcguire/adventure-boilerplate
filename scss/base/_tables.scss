@@ -1,0 +1,22 @@
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+tr {
+}
+
+thead tr:nth-child(odd) {
+  background-color: $color-light-emphasis;
+}
+
+th {
+  font-weight: bold;
+}
+
+td {
+}
+
+caption {
+}
+

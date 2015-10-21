@@ -1,32 +1,21 @@
-
 ul {
   padding: 0;
-  margin: 0 0 0 2.2em;
-
-  li {
-    list-style: none;
-    position: relative;
-    margin: 1.5em 0;
-  }
-
-  > li::before {
-    content: '';
-    background: #6f96a8;
-    position: absolute;
-    left: -20px;
-    top: 8px;
-    width: 8px;
-    height: 8px;
-    font-size: 0;
-    line-height: 0;
-  }
+  margin-left: 0;
 }
 
 ol {
   li {
+    position: relative;
+    margin-left: 0
+  }
+}
+
+/* for a list of options for a die roll, like "roll a d8 and choose from below" */
+ol.dice_options {
+  li {
     list-style: none;
     position: relative;
-    margin: 1.5em 0
+    margin-left: 0
   }
 
   > li::before {
@@ -48,10 +37,5 @@ ol {
     padding: 1px 5px 1px;
     line-height: 18px;
   }
-}
-
-/* for a list of options for a die roll, like "roll a d8 and choose from below" */
-ol.dice_options {
-  li { }
 }
 

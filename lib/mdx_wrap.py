@@ -56,6 +56,7 @@ class WrapProcessor(markdown.postprocessors.Postprocessor):
 
     <script src="https://use.typekit.net/kff4qkp.js"></script>
     <script>try{{Typekit.load({{ async: true }});}}catch(e){{}}</script>
+    <link href='https://fonts.googleapis.com/css?family=Lora:700|Noto+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   </head>
   <body>
     <!--[if lt IE 8]>

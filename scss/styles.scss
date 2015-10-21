@@ -1,9 +1,10 @@
-
 /* imports */
 /* -------------------------------------------------------------------------- */
 
-//@import 'vendors/normlize';
+@import 'vendors/normlize';
+@import 'vendors/html5boilerplate';
 @import 'base/variables';
+@import 'base/mixins';
 @import 'base/text';
 @import 'base/lists';
 @import 'base/quotes';
@@ -14,14 +15,21 @@
 @import 'components/statblock';
 @import 'components/attribute-list';
 @import 'components/npc';
+@import 'components/asides';
 
 html, body {
   height: 100%;
   width: 100%;
 }
 
+body {
+  background-color: $background-color;
+  background: $parallax-image;
+  margin: 0;
+}
+
 main {
-  max-width: 755px;
+  max-width: $page-width;
   margin: 0 auto;
 }
 
