@@ -7,22 +7,29 @@ Finish typing up jm01 adventure
 Build script:
 
  - should include necessary licences
- - create parallax from supplied image
- - create footer
 
 Styles:
 
- - print stylesheet
- - include that unsupported printing css extension?
- - convert statblock.css to sass, use h4 and h5
- - do i want to experiment with OOCSS, BEM?
- - dialog options css for NPCs
- - footer styles
- - navigation styles
- - style for referencing PHB, MM, DMG
- - aside for major inmformation with title, nice borders, and probably crimson
- - aside for dialog to read to players, also crimson, including a title
- - aside for a small "note for dms"
+ - errors to fix:
+    - statblock not clearing
+    - margins on lists
+    - attribute lists outside of statblock
+
+ - need to adjust
+    - font stack for headings, include sizing
+    - issing dl/dt/dd
+    - color-light-emphasis
+
+ - additions:
+    - style for referencing PHB, MM, DMG
+    - aside for major inmformation with title, nice borders, and probably crimson
+    - aside for dialog to read to players, also crimson, including a title
+    - aside for a small "note for dms"
+    - footer styles
+
+ - huge additions:
+   - navigation styles
+   - print styleshee, include that unsupported printing css extension?
 
 Extensions, more important:
 
