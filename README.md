@@ -32,6 +32,8 @@ If you're on Mac, which this program was developed on, use this:
   $ brew install libyaml
   $ sudo python -m easy_install pyyaml
 
+You're also going to need SASS.
+
 ## Usage
 
 Write an adventure using markdown.

@@ -20,6 +20,9 @@ Styles:
  - footer styles
  - navigation styles
  - style for referencing PHB, MM, DMG
+ - aside for major inmformation with title, nice borders, and probably crimson
+ - aside for dialog to read to players, also crimson, including a title
+ - aside for a small "note for dms"
 
 Extensions, more important:
 
@@ -39,6 +42,7 @@ Extensions, nice to have:
  - create general menu from h2 tags
  - create scene menu from the h3 tags in the scene section
  - do something for the paper book references, like DMG 100
+ - highlight DC and saving throws, just like dice rolls
 
 need a dummy img, a simple pattern, slate grey, for a default parallax image
 

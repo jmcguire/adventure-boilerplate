@@ -1,0 +1,120 @@
+
+body {
+  color: $text-color;
+  background-color: $background-color;
+  background: url(../img/dnd5_background.jpg);
+  line-height: 1.65;
+  font-size: 93.75%;
+  margin: 0;
+}
+
+p, q, li, blockquote {
+  margin: 0 0 1.5em 0
+}
+
+h2 + p:first-letter {
+  font-family: $font-stack-dropcap;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+  float: left;
+  color: $text-color-dropcap;
+}
+
+a {
+  color: #4f7177;
+}
+
+em {
+  background-color: #6f96a8;
+  color: #fff;
+}
+
+::selection {
+  background-color: #adff2f;
+}
+
+p, li {
+  font-family: $font-stack;
+  font-size: 1.3em;
+  font-weight: 400;
+  @extend .text-smoothing;
+  text-rendering: optimizeLegibility;
+}
+
+
+/* adventure title */
+h1 {
+  font-family: $font-stack-bigtitle;
+  font-weight: 300;
+  font-size: 3.5em;
+  @extend .text-smoothing;
+  color: $text-color-title;
+  text-shadow: -2px 0 2px black, 0 2px 2px black, 2px 0 2px black, 0 -2px 2px black;
+  text-rendering: optimizeLegibility;
+  line-height: 1.2;
+  margin: 0;
+  padding-bottom: 0;
+  /* subtitle */
+  span {
+    display: block;
+    color: $text-color-subtitle;
+    font-family: $font-stack-subtitle;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.2em;
+    text-shadow: none;
+    margin: .1em 0 0;
+  }
+}
+
+/* adventure author */
+h2 { }
+
+/* section title */
+h2 {
+  font-family: $font-stack;
+  font-size: 2em;
+  font-weight: 500;
+  line-height: 1.125em;
+  margin: 1.5em 0 .5em;
+
+  display: block;
+  margin-before: 1em;
+  margin-after: 1em;
+  margin-start: 0px;
+  margin-end: 0px;
+  /* subtitle */
+  span { }
+}
+
+/* chapter title (or any subsection) */
+h3 { }
+
+p {
+  line-height: 1.65;
+  display: block;
+  margin-before: 1em;
+  margin-after: 1em;
+  margin-start: 0px;
+  margin-end: 0px;
+}
+
+a { }
+/* reference to the PBH, MM, or DMG */
+span.book_reference { }
+
+.text-smoothing {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+

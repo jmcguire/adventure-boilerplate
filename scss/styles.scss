@@ -1,236 +1,28 @@
 
-/* sass stuff */
+/* imports */
 /* -------------------------------------------------------------------------- */
 
-$text-color: #252525;
-$text-color-title: #eee;
-$text-color-subtitle: #eee;
-$text-color-dropcap: #151515;
-
-$background-color: #f1f3f2;
-
-.text-smoothing {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-$font-stack: "Balto", Helvetica, Arial, "Nimbus Sans L", sans-serif;
-$font-stack-bigtitle: "modesto-condensed", sans-serif;
-$font-stack-subtitle: Harriet, "Georgia", serif;
-$font-stack-dropcap: "cabazon";
-
-/* general styles */
-/* -------------------------------------------------------------------------- */
+//@import 'vendors/normlize';
+@import 'base/variables';
+@import 'base/text';
+@import 'base/lists';
+@import 'base/quotes';
+@import 'base/tables';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/navigation';
+@import 'components/statblock';
+@import 'components/attribute-list';
+@import 'components/npc';
 
 html, body {
   height: 100%;
   width: 100%;
 }
 
-body {
-  color: $text-color;
-  background-color: $background-color;
-  background: url(img/dnd5_background.jpg);
-  line-height: 1.65;
-  font-size: 93.75%;
-  margin: 0;
-}
-
-p, q, li, blockquote {
-  margin: 0 0 1.5em 0
-}
-
-h2 + p:first-letter {
-  font-family: $font-stack-dropcap;
-  font-size: 75px;
-  line-height: 60px;
-  padding-top: 4px;
-  padding-right: 8px;
-  padding-left: 3px;
-  float: left;
-  color: $text-color-dropcap;
-}
-
-a {
-  color: #4f7177;
-}
-
-em {
-  background-color: #6f96a8;
-  color: #fff;
-}
-
-::selection {
-  background-color: #adff2f;
-}
-
-ul {
-  padding: 0;
-  margin: 0 0 0 2.2em;
-
-  li {
-    list-style: none;
-    position: relative;
-    margin: 1.5em 0;
-  }
-
-  > li::before {
-    content: '';
-    background: #6f96a8;
-    position: absolute;
-    left: -20px;
-    top: 8px;
-    width: 8px;
-    height: 8px;
-    font-size: 0;
-    line-height: 0;
-  }
-}
-
-ol {
-  li {
-    list-style: none;
-    position: relative;
-    margin: 1.5em 0
-  }
-
-  > li::before {
-    counter-increment: mylist 1;
-    content: counter(mylist,decimal);
-
-    color: #4c4e4d;
-    background: #bfd1df;
-    font-weight: 600;
-    font-style: normal;
-    font-size: .8em;
-    text-align: center;
-
-    position: absolute;
-    box-sizing: border-box;
-    top: 3px;
-    left: -32px;
-    height: 20px;
-    padding: 1px 5px 1px;
-    line-height: 18px;
-  }
-}
-
-p, li {
-  font-family: $font-stack;
-  font-size: 1.3em;
-  font-weight: 400;
-  @extend .text-smoothing;
-  text-rendering: optimizeLegibility;
-}
-
-
-/* header styles */
-/* -------------------------------------------------------------------------- */
-
-header { }
-
-/* adventure title */
-h1 {
-  font-family: $font-stack-bigtitle;
-  font-weight: 300;
-  font-size: 3.5em;
-  @extend .text-smoothing;
-  color: $text-color-title;
-  text-shadow: -2px 0 2px black, 0 2px 2px black, 2px 0 2px black, 0 -2px 2px black;
-  text-rendering: optimizeLegibility;
-  line-height: 1.2;
-  margin: 0;
-  padding-bottom: 0;
-  /* subtitle */
-  span {
-    display: block;
-    color: $text-color-subtitle;
-    font-family: $font-stack-subtitle;
-    font-style: italic;
-    font-size: 30px;
-    font-weight: 600;
-    line-height: 1.2em;
-    text-shadow: none;
-    margin: .1em 0 0;
-  }
-}
-
-/* adventure author */
-h2 { }
-
-/* menu, for every section and chapter */
-menu  {
-  li { }
-}
-
-#parallax {
-  background: url(../img/lightning-returns-ff13-concept-art.jpg) no-repeat center center fixed;
-  display: table;
-  height: 100%;
-  position: relative;
-  width: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.text-vcenter {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-}
-
-/* section styles */
-/* -------------------------------------------------------------------------- */
-
-section {
+main {
   max-width: 755px;
   margin: 0 auto;
-}
-
-/* section title */
-h2 {
-  font-family: $font-stack;
-  font-size: 2em;
-  font-weight: 500;
-  line-height: 1.125em;
-  margin: 1.5em 0 .5em;
-
-  display: block;
-  margin-before: 1em;
-  margin-after: 1em;
-  margin-start: 0px;
-  margin-end: 0px;
-  /* subtitle */
-  span { }
-}
-
-/* chapter title (or any subsection) */
-h3 { }
-
-p {
-  line-height: 1.65;
-  display: block;
-  margin-before: 1em;
-  margin-after: 1em;
-  margin-start: 0px;
-  margin-end: 0px;
-}
-
-a { }
-/* reference to the PBH, MM, or DMG */
-span.book_reference { }
-
-/* npc description */
-aside.npc {
-  img { }
-}
-
-/* NPC dialog options */
-aside.dialog {
-  ul { }
-  quote { }
 }
 
 img {
@@ -238,59 +30,5 @@ img {
   &.pull { }
   /* big full page */
   &.full { }
-}
-
-/* for a list of options for a die roll, like "roll a d8 and choose from below" */
-ol.dice_options {
-  li { }
-}
-
-/* footer styles */
-/* -------------------------------------------------------------------------- */
-
-footer { }
-
-p { }
-
-/* how to contact the author */
-ul.contact_info {
-  li { }
-}
-
-
-/* styles I don't think I'll need */
-/* -------------------------------------------------------------------------- */
-
-blockquote {
-  font-family: Georgia, serif;
-  font-size: 18px;
-  font-style: italic;
-  width: 500px;
-  margin: 0.25em 0;
-  padding: 0.25em 40px;
-  line-height: 1.45;
-  position: relative;
-  color: #383838;
-}
-
-blockquote:before {
-  display: block;
-  content: "\201C";
-  font-size: 80px;
-  position: absolute;
-  left: -20px;
-  top: -20px;
-  color: #7a7a7a;
-}
-
-blockquote cite {
-  color: #999999;
-  font-size: 14px;
-  display: block;
-  margin-top: 5px;
-}
- 
-blockquote cite:before {
-  content: "\2014 \2009";
 }
 

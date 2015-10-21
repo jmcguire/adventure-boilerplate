@@ -1,0 +1,57 @@
+
+ul {
+  padding: 0;
+  margin: 0 0 0 2.2em;
+
+  li {
+    list-style: none;
+    position: relative;
+    margin: 1.5em 0;
+  }
+
+  > li::before {
+    content: '';
+    background: #6f96a8;
+    position: absolute;
+    left: -20px;
+    top: 8px;
+    width: 8px;
+    height: 8px;
+    font-size: 0;
+    line-height: 0;
+  }
+}
+
+ol {
+  li {
+    list-style: none;
+    position: relative;
+    margin: 1.5em 0
+  }
+
+  > li::before {
+    counter-increment: mylist 1;
+    content: counter(mylist,decimal);
+
+    color: #4c4e4d;
+    background: #bfd1df;
+    font-weight: 600;
+    font-style: normal;
+    font-size: .8em;
+    text-align: center;
+
+    position: absolute;
+    box-sizing: border-box;
+    top: 3px;
+    left: -32px;
+    height: 20px;
+    padding: 1px 5px 1px;
+    line-height: 18px;
+  }
+}
+
+/* for a list of options for a die roll, like "roll a d8 and choose from below" */
+ol.dice_options {
+  li { }
+}
+

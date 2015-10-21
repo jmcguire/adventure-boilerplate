@@ -51,8 +51,6 @@ class WrapProcessor(markdown.postprocessors.Postprocessor):
     <meta name="msapplication-TileImage" content="./mstile-144x144.png">
     <meta name="theme-color" content="#d00000">
 
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 

@@ -1,0 +1,23 @@
+==wizards
+
+three font stacks:
+heading: mrs eaves, a small caps serif, normally #58170D
+body: bookmania, a serif
+sansserif: scalasans, a sansserif
+
+tables and statblock use sansserif
+table headings are sanserif
+statblock name is heading
+statblock description (not actions) is body
+
+heading levels: h2 24pt, h3 20pt, h4 15pt/underlined
+body: 9pt
+table heading: 11pt bold
+rest of table: 8.5pt
+table header row: bold
+
+statblock name: 17pt
+monster type: 8pt
+statblock: 8.5pt
+subheadings: 12pt
+

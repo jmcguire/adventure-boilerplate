@@ -73,9 +73,6 @@ mkdir $project/js
 sass scss/styles.scss >$project/css/styles.css \
   || err "SASS styles conversion failed."
 
-sass scss/statblock.scss >$project/css/statblock.css \
-  || err "SASS statblock conversion failed."
-
 ## possible error: these copies assuming that we're being executed from the
 ## adventure-boilerplate directory, which may not be true? it's not an important
 ## bug, but something to fix in the future.
@@ -86,8 +83,7 @@ cp basic_files/404.html $project/404.html
 cp basic_files/crossdomain.xml $project/crossdomain.xml
 cp basic_files/fonts/* $project/fonts
 cp basic_files/img/* $project/img
-cp css/main.css $project/css
-cp css/normalize.css $project/css
+cp img/lightning-returns-ff13-concept-art.jpg $project/img
 cp basic_files/favicons/* $project/
 cp -r basic_files/js/* $project/js
 cp $file $project

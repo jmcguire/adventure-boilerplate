@@ -57,18 +57,9 @@ dl.statblock-detailed {
   }
 }
 
-.statblock-attr {
+.statblock .attribute-list {
   table-layout: fixed;
   width: 100%;
-  border: 0 collapse;
-  color: #7A200D;
-
-  th {
-    font-weight: bold;
-  }
-  th, td {
-    text-align: center;
-  }
 }
 
 .statblock-action-title,
