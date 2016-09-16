@@ -44,7 +44,7 @@ Further documentation coming when the build.sh command is in build.
 
 ## Credits
 
-Justin McGuire
+Justin McGuire &mdash; <jm@landedstar.com> &mdash; <a href="https://twitter.com/landedstar">@landedstar.com</a> &mdash; http://landedstar.com
 
 ## License
 
